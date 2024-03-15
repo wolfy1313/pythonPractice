@@ -8,6 +8,10 @@ acronyms['BF'] = 'buttfucker'
 
 print(acronyms)
 
-acronyms['TBH'] = 'honestly'
+# acronyms['TBH'] = 'honestly'
 
 print(acronyms)
+
+sentence = 'IDK' + ' what happened ' + 'TBH'
+translation = acronyms.get('IDK') + ' what happened ' + acronyms.get('TBH')
+print(sentence, translation)
