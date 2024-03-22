@@ -6,3 +6,6 @@ betterMenus = {'Breakfast': ['egg', 'bacon', 'bagel', 'coffee'],
 
 print(menus[0])
 print(betterMenus['Lunch'])
+
+for name, menu in betterMenus.items():
+  print(name, ':', menu)
